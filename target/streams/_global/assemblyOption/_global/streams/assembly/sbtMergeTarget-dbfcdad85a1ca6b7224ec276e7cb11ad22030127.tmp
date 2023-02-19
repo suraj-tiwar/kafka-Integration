@@ -1,0 +1,4 @@
+com.fasterxml.jackson.datatype.jdk8.Jdk8Module
+# Let's hope this works as expected
+
+com.fasterxml.jackson.module.scala.DefaultScalaModule

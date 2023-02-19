@@ -1,0 +1,69 @@
+[debug] Including from cache: failureaccess-1.0.1.jar
+[debug] Including from cache: zookeeper-jute-3.6.3.jar
+[debug] Including from cache: checker-qual-2.5.2.jar
+[debug] Including from cache: netty-buffer-4.1.63.Final.jar
+[debug] Including from cache: slf4j-simple-1.6.4.jar
+[debug] Including from cache: listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[debug] Including from cache: commons-cli-1.4.jar
+[debug] Including from cache: error_prone_annotations-2.2.0.jar
+[debug] Including from cache: json-20220320.jar
+[debug] Including from cache: paranamer-2.8.jar
+[debug] Including from cache: jackson-annotations-2.13.4.jar
+[debug] Including from cache: scala-collection-compat_2.13-2.6.0.jar
+[debug] Including from cache: jsr305-3.0.2.jar
+[debug] Including from cache: scala-logging_2.13-3.9.4.jar
+[debug] Including from cache: animal-sniffer-annotations-1.17.jar
+[debug] Including from cache: netty-transport-4.1.63.Final.jar
+[debug] Including from cache: netty-codec-4.1.63.Final.jar
+[debug] Including from cache: netty-transport-native-epoll-4.1.63.Final.jar
+[debug] Including from cache: j2objc-annotations-1.1.jar
+[debug] Including from cache: commons-lang-2.6.jar
+[debug] Including from cache: metrics-core-2.2.0.jar
+[debug] Including from cache: jackson-core-2.13.4.jar
+[debug] Including from cache: netty-handler-4.1.63.Final.jar
+[debug] Including from cache: jopt-simple-5.0.4.jar
+[debug] Including from cache: lz4-java-1.8.0.jar
+[debug] Including from cache: slf4j-api-1.7.36.jar
+[debug] Including from cache: scala-java8-compat_2.13-1.0.2.jar
+[debug] Including from cache: netty-transport-native-unix-common-4.1.63.Final.jar
+[debug] Including from cache: netty-resolver-4.1.63.Final.jar
+[debug] Including from cache: zookeeper-3.6.3.jar
+[debug] Including from cache: metrics-core-4.1.12.1.jar
+[debug] Including from cache: netty-common-4.1.63.Final.jar
+[debug] Including from cache: jackson-dataformat-csv-2.13.4.jar
+[debug] Including from cache: kafka-raft-3.4.0.jar
+[debug] Including from cache: jackson-datatype-jdk8-2.13.4.jar
+[debug] Including from cache: kafka-storage-3.4.0.jar
+[debug] Including from cache: argparse4j-0.7.0.jar
+[debug] Including from cache: jose4j-0.7.9.jar
+[debug] Including from cache: snappy-java-1.1.8.4.jar
+[debug] Including from cache: storm-kafka-client-2.4.0.jar
+[debug] Including from cache: kafka-group-coordinator-3.4.0.jar
+[debug] Including from cache: jackson-module-scala_2.13-2.13.4.jar
+[debug] Including from cache: kafka-server-common-3.4.0.jar
+[debug] Including from cache: audience-annotations-0.5.0.jar
+[debug] Including from cache: jackson-databind-2.13.4.2.jar
+[debug] Including from cache: scala-reflect-2.13.10.jar
+[debug] Including from cache: guava-27.0.1-jre.jar
+[debug] Including from cache: kafka-storage-api-3.4.0.jar
+[debug] Including from cache: kafka-metadata-3.4.0.jar
+[debug] Including from cache: zstd-jni-1.5.2-1.jar
+[debug] Including from cache: kafka-clients-3.4.0.jar
+[debug] Including from cache: scala-library-2.13.10.jar
+[debug] Including from cache: kafka_2.13-3.4.0.jar
+[debug] Calculate mappings...
+[debug] Checking every *.class/*.jar file's SHA-1.
+[debug] Merging files...
+[debug] Merging 'META-INF\DEPENDENCIES' with strategy 'discard'
+[debug] Merging 'META-INF\INDEX.LIST' with strategy 'discard'
+[debug] Merging 'META-INF\MANIFEST.MF' with strategy 'discard'
+[debug] Merging 'META-INF\io.netty.versions.properties' with strategy 'first'
+[debug] Merging 'META-INF\services\com.fasterxml.jackson.core.JsonFactory' with strategy 'filterDistinctLines'
+[debug] Merging 'META-INF\services\com.fasterxml.jackson.core.ObjectCodec' with strategy 'filterDistinctLines'
+[debug] Merging 'META-INF\services\com.fasterxml.jackson.databind.Module' with strategy 'filterDistinctLines'
+[debug] Merging 'META-INF\versions\9\module-info.class' with strategy 'first'
+[debug] Merging 'kafka\kafka-version.properties' with strategy 'first'
+[info] Strategy 'discard' was applied to 3 files (Run the task at debug level to see details)
+[info] Strategy 'filterDistinctLines' was applied to 3 files (Run the task at debug level to see details)
+[info] Strategy 'first' was applied to 3 files (Run the task at debug level to see details)
+[info] Assembly up to date: C:\Users\s.tiwari\IdeaProjects\KafkaStormIntegration\target\scala-2.13\KafkaIntegration.jar

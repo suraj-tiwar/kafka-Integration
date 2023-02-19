@@ -1,0 +1,7 @@
+[debug] > Exec(assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] Strategy 'discard' was applied to a file (Run the task at debug level to see details)
+[warn] Ignored unknown package option FixedTimestamp(Some(1262304000000))
+[success] Total time: 5 s, completed 14 Feb, 2023 1:10:28 PM
+[debug] > Exec(idea-shell, None, None)

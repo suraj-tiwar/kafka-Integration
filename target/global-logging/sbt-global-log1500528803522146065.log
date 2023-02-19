@@ -1,0 +1,58 @@
+[debug] > Exec(assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[error] 2 errors were encountered during merge
+[error] java.lang.RuntimeException: deduplicate: different file contents found in the following:
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-buffer\4.1.63.Final\netty-buffer-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-codec\4.1.63.Final\netty-codec-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-common\4.1.63.Final\netty-common-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-handler\4.1.63.Final\netty-handler-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-resolver\4.1.63.Final\netty-resolver-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-transport-native-epoll\4.1.63.Final\netty-transport-native-epoll-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-transport-native-unix-common\4.1.63.Final\netty-transport-native-unix-common-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-transport\4.1.63.Final\netty-transport-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] deduplicate: different file contents found in the following:
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar:META-INF/versions/9/module-info.class
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.13.4.2\jackson-databind-2.13.4.2.jar:META-INF/versions/9/module-info.class
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\dataformat\jackson-dataformat-csv\2.13.4\jackson-dataformat-csv-2.13.4.jar:META-INF/versions/9/module-info.class
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.4\jackson-datatype-jdk8-2.13.4.jar:META-INF/versions/9/module-info.class
+[error] 	at sbtassembly.Assembly$.applyStrategies(Assembly.scala:161)
+[error] 	at sbtassembly.Assembly$.x$1$lzycompute$1(Assembly.scala:43)
+[error] 	at sbtassembly.Assembly$.x$1$1(Assembly.scala:41)
+[error] 	at sbtassembly.Assembly$.stratMapping$lzycompute$1(Assembly.scala:41)
+[error] 	at sbtassembly.Assembly$.stratMapping$1(Assembly.scala:41)
+[error] 	at sbtassembly.Assembly$.inputs$lzycompute$1(Assembly.scala:86)
+[error] 	at sbtassembly.Assembly$.inputs$1(Assembly.scala:76)
+[error] 	at sbtassembly.Assembly$.apply(Assembly.scala:103)
+[error] 	at sbtassembly.Assembly$.$anonfun$assemblyTask$1(Assembly.scala:278)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[error] 	at java.lang.Thread.run(Thread.java:748)
+[error] (assembly) deduplicate: different file contents found in the following:
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-buffer\4.1.63.Final\netty-buffer-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-codec\4.1.63.Final\netty-codec-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-common\4.1.63.Final\netty-common-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-handler\4.1.63.Final\netty-handler-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-resolver\4.1.63.Final\netty-resolver-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-transport-native-epoll\4.1.63.Final\netty-transport-native-epoll-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-transport-native-unix-common\4.1.63.Final\netty-transport-native-unix-common-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty-transport\4.1.63.Final\netty-transport-4.1.63.Final.jar:META-INF/io.netty.versions.properties
+[error] deduplicate: different file contents found in the following:
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar:META-INF/versions/9/module-info.class
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.13.4.2\jackson-databind-2.13.4.2.jar:META-INF/versions/9/module-info.class
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\dataformat\jackson-dataformat-csv\2.13.4\jackson-dataformat-csv-2.13.4.jar:META-INF/versions/9/module-info.class
+[error] C:\Users\s.tiwari\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.4\jackson-datatype-jdk8-2.13.4.jar:META-INF/versions/9/module-info.class
+[error] Total time: 3 s, completed 13 Feb, 2023 3:51:55 PM
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,15 @@
+[debug] > Exec(assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\s.tiwari\IdeaProjects\KafkaStormIntegration\target\scala-2.13\classes ...
+[warn] 1 deprecation (since 2.13.0); re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Strategy 'discard' was applied to 3 files (Run the task at debug level to see details)
+[info] Strategy 'filterDistinctLines' was applied to 3 files (Run the task at debug level to see details)
+[info] Strategy 'first' was applied to 3 files (Run the task at debug level to see details)
+[warn] Ignored unknown package option FixedTimestamp(Some(1262304000000))
+[debug] Forcing garbage collection...
+[success] Total time: 27 s, completed 15 Feb, 2023 1:28:52 PM
+[debug] > Exec(idea-shell, None, None)

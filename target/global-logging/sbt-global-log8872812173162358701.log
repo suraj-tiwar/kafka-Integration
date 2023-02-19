@@ -1,0 +1,7 @@
+[debug] > Exec(assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] Strategy 'discard' was applied to a file (Run the task at debug level to see details)
+[info] Assembly up to date: C:\Users\s.tiwari\IdeaProjects\KafkaStormIntegration\target\scala-2.13\KafkaIntegration.jar
+[success] Total time: 1 s, completed 13 Feb, 2023 3:21:27 PM
+[debug] > Exec(idea-shell, None, None)

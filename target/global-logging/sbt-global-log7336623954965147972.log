@@ -1,0 +1,14 @@
+[debug] > Exec(assembly, None, None)
+[warn] build source files have changed
+[warn] modified files: 
+[warn]   C:\Users\s.tiwari\IdeaProjects\KafkaStormIntegration\build.sbt
+[warn] Apply these changes by running `reload`.
+[warn] Automatically reload the build when source changes are detected by setting `Global / onChangedBuildSource := ReloadOnSourceChanges`.
+[warn] Disable this warning by setting `Global / onChangedBuildSource := IgnoreSourceChanges`.
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] Strategy 'discard' was applied to a file (Run the task at debug level to see details)
+[info] Assembly up to date: C:\Users\s.tiwari\IdeaProjects\KafkaStormIntegration\target\scala-2.13\KafkaIntegration.jar
+[debug] Forcing garbage collection...
+[success] Total time: 2 s, completed 13 Feb, 2023 3:21:24 PM
+[debug] > Exec(idea-shell, None, None)

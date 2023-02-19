@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: storm-kafka-client
+Implementation-Version: 2.4.0
+Built-By: bprasad
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: storm-kafka-client
+Implementation-Vendor-Id: org.apache.storm
+Created-By: Apache Maven 3.6.1
+Build-Jdk: 1.8.0_221
+Specification-Version: 2.4
+Implementation-URL: https://storm.apache.org/external/storm-kafka-clie
+ nt
+Implementation-Vendor: The Apache Software Foundation
+
