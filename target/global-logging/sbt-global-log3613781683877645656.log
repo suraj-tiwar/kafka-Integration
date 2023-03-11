@@ -1,0 +1,145 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\s.tiwari\AppData\Local\Temp\idea4.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\s.tiwari\AppData\Local\Temp\idea4.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Oracle Corporation Java 1.8.0_202)
+[debug]       Load.loadUnit: plugins took 379.8057ms
+[debug]       Load.loadUnit: defsScala took 0.6842ms
+[debug] [Loading] Scanning directory C:\Users\s.tiwari\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\s.tiwari\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 30.0123 ms
+[debug]           Load.resolveProject(global-plugins) took 57.4169ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\s.tiwari\.sbt\1.0\plugins, plugins: List(<none>))) took 125.6198ms
+[debug] [Loading] Done in C:\Users\s.tiwari\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 164.243ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2891ms
+[debug]     Load.loadUnit(file:/C:/Users/s.tiwari/.sbt/1.0/plugins/, ...) took 557.7799ms
+[debug]   Load.apply: load took 841.8604ms
+[debug]   Load.apply: resolveProjects took 9.2996ms
+[debug]   Load.apply: finalTransforms took 95.2102ms
+[debug]   Load.apply: config.delegates took 15.7704ms
+[debug]   Load.apply: Def.make(settings)... took 649.4554ms
+[debug]   Load.apply: structureIndex took 150.9829ms
+[debug]   Load.apply: mkStreams took 3.2537ms
+[info] loading global plugins from C:\Users\s.tiwari\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 6007.1765ms
+[debug]           Load.loadUnit: plugins took 32.29ms
+[debug]           Load.loadUnit: defsScala took 0.0032ms
+[debug] [Loading] Scanning directory C:\Users\s.tiwari\IdeaProjects\KafkaStormIntegration\project
+[debug]             Load.loadUnit: mkEval took 11.7509ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\s.tiwari\IdeaProjects\KafkaStormIntegration\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.6054 ms
+[info] loading settings for project kafkastormintegration-build from plugins.sbt,idea4.sbt ...
+[debug]               Load.resolveProject(kafkastormintegration-build) took 4.4802ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id kafkastormintegration-build, base: C:\Users\s.tiwari\IdeaProjects\KafkaStormIntegration\project, plugins: List(<none>))) took 9.085ms
+[debug] [Loading] Done in C:\Users\s.tiwari\IdeaProjects\KafkaStormIntegration\project, returning: (kafkastormintegration-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3135.5318ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.545ms
+[debug]         Load.loadUnit(file:/C:/Users/s.tiwari/IdeaProjects/KafkaStormIntegration/project/, ...) took 3176.0318ms
+[debug]       Load.apply: load took 3177.9656ms
+[debug]       Load.apply: resolveProjects took 0.1453ms
+[debug]       Load.apply: finalTransforms took 6.6592ms
+[debug]       Load.apply: config.delegates took 0.72ms
+[debug]       Load.apply: Def.make(settings)... took 81.8304ms
+[debug]       Load.apply: structureIndex took 59.5272ms
+[debug]       Load.apply: mkStreams took 0.0066ms
+[info] loading project definition from C:\Users\s.tiwari\IdeaProjects\KafkaStormIntegration\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 4235.9864ms
+[debug]     Load.loadUnit: defsScala took 0.0026ms
+[debug] [Loading] Scanning directory C:\Users\s.tiwari\IdeaProjects\KafkaStormIntegration
+[debug]       Load.loadUnit: mkEval took 0.3752ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtassembly.AssemblyPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,sbtassembly.AssemblyPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 4.2587 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 42.6221ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\s.tiwari\IdeaProjects\KafkaStormIntegration, plugins: List(<none>))) took 50.7144ms
+[debug] [Loading] Done in C:\Users\s.tiwari\IdeaProjects\KafkaStormIntegration, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3324.5582ms
+[debug]     Load.loadUnit: cleanEvalClasses took 38.2721ms
+[debug]   Load.loadUnit(file:/C:/Users/s.tiwari/IdeaProjects/KafkaStormIntegration/, ...) took 7600.4615ms
+[debug] Load.apply: load took 7602.9811ms
+[debug] Load.apply: resolveProjects took 0.2185ms
+[debug] Load.apply: finalTransforms took 31.0515ms
+[debug] Load.apply: config.delegates took 0.3668ms
+[debug] Load.apply: Def.make(settings)... took 108.4285ms
+[debug] Load.apply: structureIndex took 20.622ms
+[debug] Load.apply: mkStreams took 0.0044ms
+[info] set current project to KafkaStormIntegration (in build file:/C:/Users/s.tiwari/IdeaProjects/KafkaStormIntegration/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 54778 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 54778, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to KafkaStormIntegration (in build file:/C:/Users/s.tiwari/IdeaProjects/KafkaStormIntegration/)
+[debug] > Exec(idea-shell, None, None)
